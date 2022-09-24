@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Header from '../src/Header/Header';
+import HeroSection from '../src/HeroSection/HeroSection';
 
 export default function Home() {
 	return (
@@ -12,6 +13,7 @@ export default function Home() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<Header />
+			<HeroSection />
 			<main className={styles.main}></main>
 
 			<footer className={styles.footer}></footer>

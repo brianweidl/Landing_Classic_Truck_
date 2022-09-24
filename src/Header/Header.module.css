@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500;1,600;1,700&display=swap');
+
 .header {
-	padding: 2em;
+	padding: 3em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.header_title {
+	font-size: 2em;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-style: italic;
 }
 
 .header_nav {
@@ -16,5 +25,18 @@
 }
 
 .header_nav ul li {
-	margin: 1em;
+	margin: 1.5em;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+}
+
+.header_rightIcons {
+	display: flex;
+	align-items: center;
+}
+
+.header_rightIcons span {
+	width: 50px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
 }
