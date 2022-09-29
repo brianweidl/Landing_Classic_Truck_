@@ -176,15 +176,21 @@
 	}
 }
 
+@media (min-width: 1400px) {
+	.satisfiedCustomersSection {
+		left: 400px;
+	}
+}
+
 @media (min-width: 1710px) {
 	.main_title {
-		font-size: 18em;
+		font-size: 15em;
 	}
 
 	.satisfiedCustomersSection {
 		position: absolute;
-		left: 600px;
-		bottom: 50px;
+		left: 470px;
+		bottom: 20px;
 		height: 200px;
 		display: flex;
 		align-items: center;
