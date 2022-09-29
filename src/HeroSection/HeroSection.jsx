@@ -13,16 +13,16 @@ function HeroSection() {
 			<section className={styles.satisfiedCustomersSection}>
 				<div className={styles.imagesContainer}>
 					<span className={styles.userImageWrapper}>
-						<Image src={user1} alt="User" placeholder="blur" className={styles.userImage} width={50} height={50} />
+						<Image src={user1} alt="User" placeholder="blur" className={styles.userImage} width={100} height={100} />
 					</span>
 					<span className={styles.userImageWrapper}>
-						<Image src={user2} alt="User" placeholder="blur" className={styles.userImage} width={50} height={50} />
+						<Image src={user2} alt="User" placeholder="blur" className={styles.userImage} width={100} height={100} />
 					</span>
 					<span className={styles.userImageWrapper}>
-						<Image src={user3} alt="User" placeholder="blur" className={styles.userImage} width={50} height={50} />
+						<Image src={user3} alt="User" placeholder="blur" className={styles.userImage} width={100} height={100} />
 					</span>
 				</div>
-				<span className={styles.satisfiedCustomersMessage}>20k Satisfied Customers</span>
+				<span className={styles.satisfiedCustomersMessage}>20k Satisfied Customers </span>
 			</section>
 		</main>
 	);

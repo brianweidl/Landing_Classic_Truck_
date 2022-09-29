@@ -37,14 +37,15 @@
 	margin: 0 auto;
 	width: 50%;
 	padding-top: 20px;
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid var(--dark-gray);
 }
 .satisfiedCustomersSection {
 	margin-top: 1rem;
-	width: 50%;
+	width: 60%;
 	display: flex;
 	font-size: 0.6em;
 	align-items: center;
+	justify-content: center;
 }
 
 .imagesContainer {
@@ -82,10 +83,120 @@
 	font-weight: 600;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
+	.heroMain {
+		padding: 0rem 2.5rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		position: relative;
+	}
+
 	.main_title {
-		font-size: 14em;
+		font-size: 12em;
 		line-height: 0.8em;
 		width: 80%;
+		text-align: left;
+	}
+
+	.main_paragraph {
+		position: absolute;
+		top: 20px;
+		left: 600px;
+		width: 400px;
+		font-size: 1em;
+		text-align: start;
+	}
+
+	.main_paragraph:after {
+		content: '';
+		display: block;
+		margin: 0;
+		width: 400px;
+		height: 5rem;
+		padding: 0;
+		border-left: 2px solid var(--dark-gray);
+		border-bottom: none;
+		position: relative;
+		bottom: 80px;
+		right: 50px;
+	}
+
+	.satisfiedCustomersSection {
+		position: absolute;
+
+		left: 500px;
+		bottom: 10px;
+		height: 200px;
+		display: flex;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.imagesContainer {
+		width: 200px;
+		height: 100px;
+	}
+
+	.userImageWrapper {
+		width: 100px;
+		height: 100px;
+	}
+	.userImage {
+		width: 100px;
+		height: 100px;
+	}
+
+	.userImageWrapper:nth-child(1) {
+		position: absolute;
+		left: 0;
+	}
+	.userImageWrapper:nth-child(2) {
+		position: absolute;
+		left: 50px;
+	}
+
+	.userImageWrapper:nth-child(3) {
+		position: absolute;
+		left: 100px;
+	}
+
+	.satisfiedCustomersMessage {
+		font-size: 1.5em;
+		width: 7rem;
+	}
+	.satisfiedCustomersMessage:after {
+		content: '';
+		display: block;
+		margin-top: 1em;
+		width: 20px;
+		height: 1px;
+		background-color: var(--dark-gray);
+	}
+}
+
+@media (min-width: 1710px) {
+	.main_title {
+		font-size: 18em;
+	}
+
+	.satisfiedCustomersSection {
+		position: absolute;
+		left: 600px;
+		bottom: 50px;
+		height: 200px;
+		display: flex;
+		align-items: center;
+		gap: 2em;
+	}
+
+	.main_paragraph {
+		position: absolute;
+		top: 60px;
+		left: 900px;
+		width: 400px;
+		font-size: 1em;
+		text-align: start;
 	}
 }
