@@ -1,19 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@800&display=swap');
+
+.heroMain {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
 .main_title {
-	margin: 0;
+	margin-top: 0;
+	margin-bottom: 2rem;
 	font-family: 'Azeret Mono', monospace;
-	font-weight: 900;
-	font-size: 14em;
-	line-height: 0.8em;
-	width: 80%;
-	/* 	background: #e06c01;
-	background: linear-gradient(to bottom, #e06c01 59%, #2b1400 100%);
+	font-weight: 800;
+	font-size: 4.5em;
+	line-height: 58px;
+	text-align: center;
+	background: #e27b13;
+	background: linear-gradient(to bottom, #e27b13 39%, #4b382e 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent; */
-	background: #e27b13;
-	background: linear-gradient(to bottom, #e27b13 59%, #4b382e 100%);
-	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.main_paragraph {
+	text-align: center;
+	width: 70%;
+	font-size: 0.7em;
+	font-style: italic;
+	font-weight: 500;
+}
+
+.main_paragraph:after {
+	content: '';
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 20px;
+	border-bottom: 2px solid black;
+}
+.satisfiedCustomersSection {
+	margin-top: 1rem;
+	width: 50%;
+	display: flex;
+	font-size: 0.6em;
+	align-items: center;
+}
+
+.imagesContainer {
+	position: relative;
+	width: 200px;
+	height: 50px;
+}
+.userImageWrapper {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+.userImageWrapper:nth-child(1) {
+	position: absolute;
+	left: 0;
+}
+.userImageWrapper:nth-child(2) {
+	position: absolute;
+	left: 25px;
+}
+
+.userImageWrapper:nth-child(3) {
+	position: absolute;
+	left: 50px;
+}
+
+.userImage {
+	border-radius: 50%;
+	border: 5px solid white;
+}
+
+.satisfiedCustomersMessage {
+	color: var(--dark-gray);
+	font-weight: 600;
+}
+
+@media (min-width: 768px) {
+	.main_title {
+		font-size: 14em;
+		line-height: 0.8em;
+		width: 80%;
+	}
 }
