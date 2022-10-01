@@ -16,8 +16,8 @@
 	font-size: 4.5em;
 	line-height: 58px;
 	text-align: center;
-	background: #e27b13;
-	background: linear-gradient(to bottom, #e27b13 39%, #4b382e 100%);
+	background: var(--orange);
+	background: linear-gradient(to bottom, var(--orange) 39%, #4b382e 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -26,7 +26,7 @@
 .main_paragraph {
 	text-align: center;
 	width: 70%;
-	font-size: 0.7em;
+	font-size: 0.8em;
 	font-style: italic;
 	font-weight: 500;
 }
@@ -43,7 +43,7 @@
 	margin-top: 1rem;
 	width: 60%;
 	display: flex;
-	font-size: 0.6em;
+	font-size: 0.8em;
 	align-items: center;
 	justify-content: center;
 }
@@ -51,11 +51,11 @@
 .imagesContainer {
 	position: relative;
 	width: 200px;
-	height: 50px;
+	height: 65px;
 }
 .userImageWrapper {
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	border-radius: 50%;
 	border: 2px solid white;
 }
@@ -65,12 +65,12 @@
 }
 .userImageWrapper:nth-child(2) {
 	position: absolute;
-	left: 25px;
+	left: 30px;
 }
 
 .userImageWrapper:nth-child(3) {
 	position: absolute;
-	left: 50px;
+	left: 60px;
 }
 
 .userImage {
@@ -85,7 +85,7 @@
 
 @media (min-width: 1200px) {
 	.heroMain {
-		padding: 0rem 2.5rem;
+		padding: 0rem 6em;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;

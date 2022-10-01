@@ -3,6 +3,7 @@ import Image from 'next/image';
 
 import Header from '../src/Header/Header';
 import HeroSection from '../src/HeroSection/HeroSection';
+import TruckImage from '../src/TruckImage/TruckImage';
 
 export default function Home() {
 	return (
@@ -13,6 +14,7 @@ export default function Home() {
 			</Head>
 			<Header />
 			<HeroSection />
+			<TruckImage />
 		</>
 	);
 }
