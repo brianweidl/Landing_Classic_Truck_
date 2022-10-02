@@ -140,8 +140,8 @@
 	}
 
 	.userImageWrapper {
-		width: 100px;
-		height: 100px;
+		width: 80px;
+		height: 80px;
 	}
 	.userImage {
 		width: 100px;
@@ -163,7 +163,7 @@
 	}
 
 	.satisfiedCustomersMessage {
-		font-size: 1.5em;
+		font-size: 1.2em;
 		width: 7rem;
 	}
 	.satisfiedCustomersMessage:after {
@@ -178,7 +178,8 @@
 
 @media (min-width: 1400px) {
 	.satisfiedCustomersSection {
-		left: 400px;
+		left: 500px;
+		bottom: 0px;
 	}
 }
 
@@ -189,7 +190,7 @@
 
 	.satisfiedCustomersSection {
 		position: absolute;
-		left: 470px;
+		left: 500px;
 		bottom: 20px;
 		height: 200px;
 		display: flex;

@@ -7,7 +7,7 @@
 	width: 80px;
 	height: 80px;
 	border-radius: 50%;
-	border: 8px solid white;
+	border: 12px solid white;
 	background-color: white;
 	position: absolute;
 	left: 0;
@@ -31,29 +31,14 @@
 
 @media (min-width: 1200px) {
 	.mainContainer {
-		margin-top: 6em;
-		position: relative;
 	}
 
 	.orangeArrow {
 		width: 130px;
 		height: 130px;
-		border-radius: 50%;
-		border: 8px solid white;
-		background-color: white;
-		position: absolute;
-		left: 0;
-		right: 200px;
-		top: -50px;
-		margin-left: auto;
-		margin-right: auto;
-		z-index: 10;
 	}
 
 	.imageWrapper {
-		display: block;
-		width: 100vw;
 		height: 800px;
-		position: relative;
 	}
 }
