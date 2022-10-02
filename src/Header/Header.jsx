@@ -12,17 +12,17 @@ function Header() {
 			<nav className={Styles.header_nav}>
 				<ul>
 					<li>
-						<Link href="/">
+						<Link href="/find-dealer">
 							<a>Find Dealer</a>
 						</Link>
 					</li>
 					<li>
-						<Link href="/">
+						<Link href="/about-us">
 							<a>About Us</a>
 						</Link>
 					</li>
 					<li>
-						<Link href="/">
+						<Link href="/auction-central">
 							<a>Auction Central</a>
 						</Link>
 					</li>
