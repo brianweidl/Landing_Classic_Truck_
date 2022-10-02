@@ -1,16 +1,31 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import Styles from './Header.module.css';
 import mailIcon from '../../public/img/header/mail-icon.png';
 
 function Header() {
 	return (
 		<header className={Styles.header}>
-			<h3 className={Styles.header_title}>Carzone</h3>
+			<h3 className={Styles.header_title}>
+				<Link href="/">Carzone</Link>
+			</h3>
 			<nav className={Styles.header_nav}>
 				<ul>
-					<li>Service</li>
-					<li>Find Dealer</li>
-					<li>Auction Central</li>
+					<li>
+						<Link href="/">
+							<a>Find Dealer</a>
+						</Link>
+					</li>
+					<li>
+						<Link href="/">
+							<a>About Us</a>
+						</Link>
+					</li>
+					<li>
+						<Link href="/">
+							<a>Auction Central</a>
+						</Link>
+					</li>
 				</ul>
 			</nav>
 			<div className={Styles.header_rightIcons}>

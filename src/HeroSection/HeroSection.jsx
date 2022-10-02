@@ -9,7 +9,7 @@ function HeroSection() {
 	return (
 		<main className={styles.heroMain}>
 			<h1 className={styles.main_title}>THE CLASSIC TRUCK</h1>
-			<p className={styles.main_paragraph}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. </p>
+			<p className={styles.main_paragraph}>The international ClassicTruck network provides you with access to a unique pool of trucks of all brands, ages and types. </p>
 			<section className={styles.satisfiedCustomersSection}>
 				<div className={styles.imagesContainer}>
 					<span className={styles.userImageWrapper}>
