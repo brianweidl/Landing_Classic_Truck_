@@ -41,7 +41,7 @@
 }
 .satisfiedCustomersSection {
 	margin-top: 1rem;
-	width: 60%;
+	width: 70%;
 	display: flex;
 	font-size: 0.8em;
 	align-items: center;
@@ -83,6 +83,18 @@
 	font-weight: 600;
 }
 
+@media (max-width: 380px) {
+	.satisfiedCustomersSection {
+		width: 60%;
+		flex-direction: column;
+	}
+	.imagesContainer {
+		width: 130px;
+		height: 65px;
+		margin: 2em;
+	}
+}
+
 @media (min-width: 1200px) {
 	.heroMain {
 		padding: 0rem 6em;
@@ -94,7 +106,7 @@
 	}
 
 	.main_title {
-		font-size: 12em;
+		font-size: 10em;
 		line-height: 0.8em;
 		width: 80%;
 		text-align: left;
@@ -127,7 +139,7 @@
 		position: absolute;
 
 		left: 500px;
-		bottom: 10px;
+		bottom: -20px;
 		height: 200px;
 		display: flex;
 		align-items: center;
@@ -176,10 +188,9 @@
 	}
 }
 
-@media (min-width: 1400px) {
-	.satisfiedCustomersSection {
-		left: 500px;
-		bottom: 0px;
+@media (min-width: 1300px) {
+	.main_title {
+		font-size: 12em;
 	}
 }
 
