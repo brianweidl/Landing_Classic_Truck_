@@ -1,0 +1,40 @@
+.mainContainer {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.mainContainer h3 {
+	font-size: 1.8em;
+	font-style: italic;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.findDealer {
+	display: inline-block;
+	width: 45%;
+	font-size: 1.6em;
+	color: var(--orange);
+	text-decoration: underline;
+	display: flex;
+	align-items: center;
+}
+
+.arrowWrapper {
+	transform: rotate(180deg);
+	width: 40px;
+}
+
+.imageWrapper {
+	margin: 2em 0;
+}
+
+.aboutUsButton {
+	display: inline-block;
+	margin: 1em 0;
+	color: #fff;
+	background-color: var(--orange);
+	padding: 10px;
+	border-radius: 6px;
+}
