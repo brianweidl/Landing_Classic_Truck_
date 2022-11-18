@@ -13,17 +13,19 @@
 
 .findDealer {
 	display: inline-block;
-	width: 45%;
+	width: 50%;
 	font-size: 1.6em;
 	color: var(--orange);
-	text-decoration: underline;
+
 	display: flex;
 	align-items: center;
 }
 
 .arrowWrapper {
-	transform: rotate(180deg);
 	width: 40px;
+	display: flex;
+	align-items: center;
+	margin-left: 5px;
 }
 
 .imageWrapper {
