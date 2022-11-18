@@ -1,0 +1,50 @@
+.footer {
+	width: 100vw;
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+}
+
+.border {
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 1px;
+	width: 90vw;
+}
+
+.footer_title {
+	font-size: 1.4em;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.info {
+	margin-top: 8em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.linkList {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.linkList li {
+	margin: 1em 0;
+	color: var(--dark-gray);
+}
+
+.linkList li:hover {
+	color: var(--orange);
+}
+
+.logos {
+	width: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.signature {
+	font-size: 0.8em;
+}
