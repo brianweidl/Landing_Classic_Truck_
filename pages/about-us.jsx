@@ -1,7 +1,7 @@
 import React from 'react';
-
+import UnderConstruction from '../src/UnderConstruction/UnderConstruction';
 function AboutUs() {
-	return <h1>AboutUs</h1>;
+	return <UnderConstruction />;
 }
 
 export default AboutUs;

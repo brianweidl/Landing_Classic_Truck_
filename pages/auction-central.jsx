@@ -1,7 +1,7 @@
 import React from 'react';
-
+import UnderConstruction from '../src/UnderConstruction/UnderConstruction';
 function AuctionCentral() {
-	return <h1>AuctionCentral</h1>;
+	return <UnderConstruction />;
 }
 
 export default AuctionCentral;

@@ -1,7 +1,8 @@
 import React from 'react';
+import UnderConstruction from '../src/UnderConstruction/UnderConstruction';
 
 function FindDealer() {
-	return <h1>Find Dealer</h1>;
+	return <UnderConstruction />;
 }
 
 export default FindDealer;
