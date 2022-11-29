@@ -23,7 +23,7 @@ function Header() {
 					</li>
 				</ul>
 				<div className={styles.info}>
-					<p className={styles.signature}>2022 Brian Weidl</p>
+					<p className={styles.signature}>2022 - Brian Weidl</p>
 					<div className={styles.logos}>
 						<a href="https://www.linkedin.com/in/brianweidl/" target="_blank" rel="noreferrer">
 							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="30px" height="30px">

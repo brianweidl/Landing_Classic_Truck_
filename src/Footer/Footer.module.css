@@ -1,8 +1,10 @@
 .footer {
+	margin-top: 3em;
 	width: 100vw;
 	padding: 2em;
 	display: flex;
 	flex-direction: column;
+	font-size: 12px;
 }
 
 .border {
@@ -19,7 +21,7 @@
 }
 
 .info {
-	margin-top: 8em;
+	margin-top: 4em;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -46,5 +48,20 @@
 	justify-content: space-between;
 }
 .signature {
+	color: var(--orange);
+	font-weight: 600;
 	font-size: 0.8em;
+}
+
+@media (min-width: 1200px) {
+	.footer {
+		margin-top: 8em;
+		padding: 0 6em;
+		font-size: 14px;
+	}
+	.signature {
+		color: var(--orange);
+		font-weight: 600;
+		font-size: 1em;
+	}
 }

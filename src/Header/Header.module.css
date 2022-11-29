@@ -1,5 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500;1,600;1,700&display=swap');
 
+.sidenavHidden {
+	display: none;
+}
+.sidenav {
+	display: block;
+	height: 100vh;
+	width: 90vw;
+	position: fixed;
+	z-index: 100;
+	background-color: #ffffff;
+	box-shadow: 100vw 0 0px 200px rgba(0, 0, 0, 0.4);
+}
+
+.menuContainer {
+	padding: 0em;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.menuContainer li:not(:first-child) {
+	margin: 0 1.5em;
+}
+
+.menuContainer li {
+	display: flex;
+	border-bottom: 1px solid var(--gray);
+	padding: 1em;
+}
+
+.sidenavCloseButton {
+	border: none;
+	background-color: unset;
+	margin-right: 1.5em;
+}
 .header {
 	width: 100vw;
 	padding: 2em;
