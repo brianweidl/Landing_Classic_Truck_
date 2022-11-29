@@ -17,15 +17,12 @@ function CTA() {
 					</svg>
 				</div>
 			</div>
-			<div>
+			<div className={styles.sectionImageInfo}>
 				<div className={styles.imageWrapper}>
 					<Image src={ctaimage} alt="User" placeholder="blur" />
 				</div>
-				<div>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit vestibulum odio id vehicula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-						inceptos himenaeos. Suspendisse at justo elit. Proin fringilla erat ut eros rhoncus tempus id in nisi. Fusce quis justo tempor, rhoncus neque at, bibendum ipsum.
-					</p>
+				<div className={styles.sectionInfo}>
+					<p>We represent more than 16,000 new-car dealers and advocate on their behalf before all branches of the federal government, manufacturers, the media and the public.</p>
 
 					<Link href="/about-us">
 						<a className={styles.aboutUsButton}>About Us</a>

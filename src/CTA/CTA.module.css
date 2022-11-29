@@ -21,6 +21,10 @@
 	align-items: center;
 }
 
+.findDealer:hover {
+	cursor: pointer;
+}
+
 .arrowWrapper {
 	width: 40px;
 	display: flex;
@@ -39,4 +43,38 @@
 	background-color: var(--orange);
 	padding: 10px;
 	border-radius: 6px;
+}
+
+@media (min-width: 1200px) {
+	.mainContainer {
+		padding: 0 6em;
+	}
+
+	.mainContainer h3 {
+		font-size: 3em;
+		margin: 1.5em 0 0.5em 0;
+	}
+	.imageWrapper {
+		flex: 2;
+	}
+
+	.findDealer {
+		font-size: 1.8em;
+		width: 16%;
+	}
+	.sectionImageInfo {
+		display: flex;
+	}
+	.sectionInfo {
+		flex: 1;
+		margin-top: 1em;
+		padding: 0 8em 0 2em;
+		font-size: 1.2em;
+	}
+}
+
+@media (min-width: 1400px) {
+	.findDealer {
+		width: 11%;
+	}
 }
